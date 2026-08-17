@@ -1,12 +1,13 @@
-# 🧠 Understanding Endian-ness 
 
-When a processor stores a multi-byte data type (like a 32-bit integer) in memory, it must decide the sequence of those bytes. This specific ordering is known as **Endian-ness**.
+When a processor stores a multi-byte data type (like a 32-bit integer) in memory, it must decide the sequence of those bytes. This specific ordering is known as **Endianness**.
 
 Let's visualize storing the decimal number **`439041101`**. In hexadecimal, this 32-bit (4-byte) number is:
-### **`0x1A2B3C4D`**
+
+$$ 0x1A2B3C4D $$
 
 > [!NOTE] 
-> In the number `0x1A2B3C4D`:
+> In the hex number `0x1A2B3C4D`:
+> 
 > - **Most Significant Byte (MSB)** is ==`1A`==
 > - **Least Significant Byte (LSB)** is ==`4D`==
 
